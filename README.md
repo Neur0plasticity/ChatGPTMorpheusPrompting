@@ -37,7 +37,11 @@ Contextual Compression Techniques
     Convert oppositable words in prompt: <prompt>.
     If opposite prompt shorter than original prompt save it.
     
-    
+  Same meaning ask different way
+        start loop (count < 30)
+          write this prompt a different way with same meaning: <prompt>
+        end loop
+        if any of the prompts is shorter than the original prompt then replace original with new
   
   
   
