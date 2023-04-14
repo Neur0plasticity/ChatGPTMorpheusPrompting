@@ -7,43 +7,51 @@ This will eliminate message history and there will always be one message intstea
 
 Contextual Compression Techniques
 
-  Phonetic Spelling System 
+1) Phonetic Spelling System 
     "convert the prompt to a phonetic spelling system that is less characters than original prompt"
   
-  Translation
+2) Translation
     "translate the prompt to language with least character response"
 
-  Encoding
+3) Encoding
     "use <compressionalgorithm> and output the encodings with cypher"
 
-  Referencing
+4) Referencing
     Find books that mention the phrase "Good Day".
     Respond in this format:
     <Book> <page> <begin element position> <end element position>
     
-  Post Rendering Prompt / Question
+5) Post Rendering Prompt / Question
     "here is the prompt <prompt> do not render the prompts response but keep output on standby"
     
-  Writing Age
+6) Writing Age
     start loop (age < 30)
        write this prompt the way a <age> would: <prompt>
     end loop
     if an age group used a coherent response compared to the original prompt and is shorter then use it.
     
-  Writing Style
+7) Writing Style
   
   OppositeA <-> OppossiteB 
   
     Convert oppositable words in prompt: <prompt>.
     If opposite prompt shorter than original prompt save it.
     
-  Same meaning ask different way
+ 8) Same meaning ask different way
         start loop (count < 30)
           write this prompt a different way with same meaning: <prompt>
         end loop
         if any of the prompts is shorter than the original prompt then replace original with new
   
+9) Texting Lingo Converter    
+      
+10) Use acronymns:      
   
+11) Interpretable Bad Spelling:
+      
+      convert prompt into shorted interpretable bad spelling: <prompt>
+      
+12) First letter Words Figure out whole words with context clues:
   
   
   
