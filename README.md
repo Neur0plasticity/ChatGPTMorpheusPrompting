@@ -66,4 +66,8 @@ Contextual Compression Techniques)
   
 14) Remove superfluous grammar: 
       remove superflous grammar from <prompt>
+        
+15) Disemvowelment:
+      disemvowel the prompt: <prompt>
+      reemvowel the prompt: <disemvoweledprompt>
   
