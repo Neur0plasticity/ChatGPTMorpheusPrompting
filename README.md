@@ -64,5 +64,6 @@ Contextual Compression Techniques)
       
 13) First letter Words Figure out whole words with context clues:
   
-  
+14) Remove superfluous grammar: 
+        remove superflous grammar from <prompt>
   
